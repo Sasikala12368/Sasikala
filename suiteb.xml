@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+<parameter name="mobilenumber" value="7894563210"></parameter>
+<parameter name="pass" value="lkol"></parameter>
+
+  <test name="Test">
+    <classes>
+      <class name="org.testn.TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
